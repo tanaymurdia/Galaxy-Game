@@ -1,0 +1,13 @@
+#:import menu menu
+MainWidget:
+
+<MainWidget>:
+    menu_widget: menu_widget
+    MenuWidget:
+        id: menu_widget
+    Button:
+        id: btnexit
+        text: "Exit"
+        pos_hint: {"right": 1, "top": 1}
+        size_hint: .05,.1
+        on_press: app.stop()
