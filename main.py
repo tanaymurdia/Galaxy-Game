@@ -3,6 +3,8 @@
 Created on Fri Jul  9 14:23:41 2021
 
 @author: - Tanay Murdia
+
+comment for assignment
 """
 from kivy.config import Config
 Config.set('graphics','width','900')
